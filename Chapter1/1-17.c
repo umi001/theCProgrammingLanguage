@@ -29,7 +29,6 @@ int getLine(char line[]){
 		line[l]=c;
 		++l;
 	}
-	line[l]='\0';
 	return l;
 }
 
