@@ -3,9 +3,7 @@
 void main(){
 	int c;
 	int line_count, blank_count, tab_count;
-	line_count = 0;
-	blank_count =0;
-	tab_count =0;
+	line_count = blank_count = tab_count =0;
 
 	while((c=getchar()) != EOF){
 		if(c == ' '){
